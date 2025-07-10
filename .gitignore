@@ -1,0 +1,29 @@
+# 忽略构建目录
+Build/
+
+# 忽略编译生成的文件
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.sln
+*.vcxproj*
+*.filters
+*.user
+*.idb
+*.log
+*.tlog
+
+# 忽略CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 忽略VSCode设置
+.vscode/
+
+# 忽略链接库文件
+Lib/
+Bin/
+
